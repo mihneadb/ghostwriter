@@ -183,7 +183,8 @@ table {
   font-size: 14px;
   font-weight: 600;
   margin: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: "adobe-garamond-pro", georgia; }
   .site-title a {
     float: left;
     background: #00ada7;
