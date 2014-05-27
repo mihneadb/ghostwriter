@@ -353,7 +353,8 @@ table {
 .post-stub-title {
   display: inline-block;
   margin: 0;
-  text-transform: none; }
+  text-transform: none;
+  font-size: 22px; }
 
 .post-stub-date {
   display: inline-block; }
