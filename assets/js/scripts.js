@@ -22,7 +22,7 @@ jQuery(function($) {
 
     var History = window.History;
     var loading = false;
-    var showIndex = false;
+    var showIndex = true;
     var $ajaxContainer = $('#ajax-container');
     var $latestPost = $('#latest-post');
     var $postIndex = $('#post-index');
