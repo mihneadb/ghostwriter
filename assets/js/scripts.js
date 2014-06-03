@@ -61,6 +61,11 @@ jQuery(function($) {
                 $latestPost = $newContent.filter('#latest-post');
                 $postIndex = $newContent.filter('#post-index');
 
+                // show index when on homepage
+                if (location.pathname === '/') {
+                    showIndex = true;
+                }
+
                 if (showIndex === true) {
                     $latestPost.hide();
                 } else {
