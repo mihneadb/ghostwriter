@@ -83,6 +83,9 @@ jQuery(function($) {
 
                 loading = false;
                 showIndex = false;
+
+                // send ga tracking event
+                ga('send', 'pageview', location.pathname + location.search);
             });
         });
     });
