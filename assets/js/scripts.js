@@ -1,5 +1,10 @@
 jQuery(function($) {
 
+    function isIndex() {
+        return (window.location.pathname.indexOf('page') === 1 ||
+                window.location.pathname.indexOf('tag') === 1);
+    }
+
     /* ============================================================ */
     /* Responsive Videos */
     /* ============================================================ */
@@ -61,8 +66,8 @@ jQuery(function($) {
                 $latestPost = $newContent.filter('#latest-post');
                 $postIndex = $newContent.filter('#post-index');
 
-                // show index when on homepage
-                if (location.pathname === '/') {
+                // show index
+                if (location.pathname === '/' || isIndex()) {
                     showIndex = true;
                 }
 
